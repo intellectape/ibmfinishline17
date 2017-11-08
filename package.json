@@ -1,0 +1,23 @@
+{
+    "name": "slackbot",
+    "version": "1.0.0",
+    "description": "",
+    "main": "bot.js",
+    "scripts": {
+        "test": "mocha --exit"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "botkit": "^0.6.1",
+        "chai": "^4.1.2",
+        "cheerio": "^1.0.0-rc.2",
+        "mocha": "^4.0.0",
+        "osmosis": "^1.1.4",
+        "slackbots": "^1.1.0",
+        "tinyreq": "^3.3.0"
+    },
+    "devDependencies": {
+        "mocha": "^4.0.0"
+    }
+}
