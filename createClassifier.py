@@ -3,8 +3,8 @@ import json
 from watson_developer_cloud import NaturalLanguageClassifierV1
 
 natural_language_classifier = NaturalLanguageClassifierV1(
-    username='001772a7-7df5-4626-af10-aaec2473203f',
-    password='mMytCmdBIg2Q')
+    username='',
+    password='')
 
 classifiers = natural_language_classifier.list()
 print(json.dumps(classifiers, indent=2))
